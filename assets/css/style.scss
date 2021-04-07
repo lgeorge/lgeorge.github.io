@@ -2,6 +2,9 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+$section-headings-color: #000000 !default = black;
+
 .page-header {
   text-align: center;
   max-width: 100%;       /* was px; both added 4/6/21 */
