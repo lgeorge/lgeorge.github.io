@@ -1,8 +1,7 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
-
+/* @import 'jekyll-theme-cayman';  */
 .page-header {
   text-align: center;
   max-width: 100%;       /* was px; both added 4/6/21 */
@@ -24,3 +23,16 @@
     padding: 2rem 1rem;
   } */
 }
+
+// Headers
+$header-heading-color: #000 !default;
+$header-bg-color: #ffff99;
+$header-bg-color-secondary: #ffff99;
+
+// Text
+$section-headings-color: #0000ff;
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
+
+@import "{{ site.theme }}";
