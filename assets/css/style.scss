@@ -24,15 +24,12 @@
   } */
 }
 
-// Headers
+// Header
 $header-heading-color: #000 !default;
-$header-bg-color: #ffff99;
-$header-bg-color-secondary: #ffff99;
 
 // Text
-$section-headings-color: #0000ff;
+$section-headings-color: #000000;
 $body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+$body-link-color: #056608 !default;
 
 @import "{{ site.theme }}";
