@@ -10,9 +10,9 @@
   /* background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png'); */
   background-position: center; /* Center the image */
   background-size: cover;
-  /* background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png'); */
+  background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png');
   
-  @include large {
+  /* @include large {
     padding: 5rem 6rem;
   }
 
@@ -22,5 +22,5 @@
 
   @include small {
     padding: 2rem 1rem;
-  }
+  } */
 }
