@@ -1,7 +1,15 @@
 ---
 ---
 
-/* @import 'jekyll-theme-cayman';  */
+// Header
+$header-heading-color: #000 !default;
+
+// Text
+$section-headings-color: #000000;
+$body-text-color: #606c71 !default;
+$body-link-color: #056608 !default;
+
+@import 'jekyll-theme-cayman'; 
 .page-header {
   text-align: center;
   max-width: 100%;       /* was px; both added 4/6/21 */
@@ -23,13 +31,3 @@
     padding: 2rem 1rem;
   } */
 }
-
-// Header
-$header-heading-color: #000 !default;
-
-// Text
-$section-headings-color: #000000;
-$body-text-color: #606c71 !default;
-$body-link-color: #056608 !default;
-
-@import "{{ site.theme }}";
