@@ -3,7 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
-$section-headings-color: #000000; /* default = black */
+$section-headings-color: #000000;
+$header-heading-color: #000000;
+$header-bg-color: #f39c12;
+$header-bg-color-secondary: #e67e22;
 
 .page-header {
   text-align: center;
@@ -15,15 +18,13 @@ $section-headings-color: #000000; /* default = black */
   background-size: cover; 
   background-repeat: no-repeat;
   background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png');
-  
+ 
   /* @include large {
     padding: 5rem 6rem;
   }
-
   @include medium {
     padding: 3rem 4rem;
   }
-
   @include small {
     padding: 2rem 1rem;
   } */
