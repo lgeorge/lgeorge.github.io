@@ -3,22 +3,16 @@
 
 @import 'jekyll-theme-cayman';
 .page-header {
-  /* color: $header-heading-color; */
   text-align: center;
-  /* background-color: $header-bg-color; */
-  /* background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color); */
   max-width: 100%;       /* was px; both added 4/6/21 */
   height: auto;          /* added 4/6/21 */
-  /* height: 720px;     added 4/6/21 */
   /* background: url('https://fpmtna.org/wp-content/uploads/2017/03/hero2.png');      /* added 4/6/21, pulls from fpmtna */
-  background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png');
+  /* background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png'); */
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   /* background: url('https://raw.githubusercontent.com/lgeorge/lgeorge.github.io/master/_images/fpmt-na-header-trimmed.png');
-  			<div id="wp-custom-header" class="wp-custom-header"><img src="https://upayasolutions.org/wp-content/uploads/2017/03/hero2.png" width="2000" height="1200" alt="FPMT North America" srcset="https://fpmtna.org/wp-content/uploads/2017/03/hero2.png 2000w, https://fpmtna.org/wp-content/uploads/2017/03/hero2-300x180.png 300w, https://fpmtna.org/wp-content/uploads/2017/03/hero2-768x461.png 768w, https://fpmtna.org/wp-content/uploads/2017/03/hero2-1024x614.png 1024w" sizes="100vw" /></div> */
-
-  @include large {
+  
+  /* @include large {
     padding: 5rem 6rem;
   }
 
@@ -28,5 +22,5 @@
 
   @include small {
     padding: 2rem 1rem;
-  }
+  } */
 }
