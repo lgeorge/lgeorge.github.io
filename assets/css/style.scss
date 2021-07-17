@@ -21,6 +21,11 @@ $body-link-color: #056608 !default;
   /* background-size: 1200px 275px; */
   width: 100%;       /* was px */
   height: 325px;      /* added 4/6/21 */
+
+.inner {
+  max-width: 75%;
+}
+
  
   @include large {
     padding: 5rem 6rem;
